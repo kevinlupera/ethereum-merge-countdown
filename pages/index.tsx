@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   const [seconds, setSeconds] = useState<number>(0);
   const [message, setMessage] = useState<string>("");
 
-  const timeToDays = time * 60 * 10 * 21 * 1017;
+  const timeToDays = time * 60 * 10 * 21 * 1007;
 
   let countDownDate = new Date().getTime() + timeToDays;
 
